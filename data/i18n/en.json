@@ -1,0 +1,75 @@
+{
+  "loader": { "word": "Heating the perfect cup" },
+  "nav": {
+    "journey": "Process",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "visit": "Visit",
+    "menuCta": "QR Menu"
+  },
+  "hero": {
+    "eyebrow": "Specialty coffee house",
+    "title1": "Coffee brewed",
+    "title2": "at the perfect temperature",
+    "subtitle": "92° is the point where water pulls the bean's full flavor. We brew every cup at that precision — nothing left to chance.",
+    "ctaPrimary": "Open QR menu",
+    "ctaSecondary": "Find us",
+    "scroll": "Scroll",
+    "gaugeCap": "Brewing temperature"
+  },
+  "journey": {
+    "eyebrow": "Our process",
+    "title": "The road to 92°",
+    "subtitle": "Five stages, each at its own temperature. One degree off, and the taste changes.",
+    "stages": [
+      { "temp": "18–22°", "title": "Bean", "desc": "We source green beans from farmers and keep them cool to protect their flavor potential." },
+      { "temp": "200–230°", "title": "Roast", "desc": "Slow-roasted in small batches — unlocking sugars without burning the bean's structure." },
+      { "temp": "room", "title": "Grind", "desc": "Freshly ground per drink — from espresso to pour-over, each with its own setting." },
+      { "temp": "92°", "title": "Brew", "desc": "Exactly 92° — the point where water extracts full flavor without bitterness." },
+      { "temp": "60–65°", "title": "Serve", "desc": "Served instantly, while the aroma peaks — from cup to you in seconds." }
+    ]
+  },
+  "menu": {
+    "eyebrow": "Menu",
+    "title": "What we brew",
+    "subtitle": "The full menu lives in the QR code on your table, or below. Here are the categories to get oriented.",
+    "categories": [
+      { "id": "espresso", "name": "Espresso-based", "desc": "Classics and signature twists — from ristretto to flat white.", "count": "12 drinks" },
+      { "id": "alt", "name": "Alternative brew", "desc": "Pour-over, dripper, aeropress — for those who notice nuance.", "count": "6 methods" },
+      { "id": "nocoffee", "name": "Non-coffee", "desc": "Matcha, cocoa, curated teas — warm and refreshing.", "count": "8 drinks" },
+      { "id": "sweets", "name": "With coffee", "desc": "House-made desserts and pastries.", "count": "10 items" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Atmosphere",
+    "title": "Inside 92°",
+    "subtitle": "Interior and drink photos will live here — placeholders hold their place for now.",
+    "items": ["Interior", "Bar", "Drink", "Beans", "Guests", "Dessert"]
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What guests say",
+    "items": [
+      { "text": "Best flat white in town. You can tell temperature and timing are actually controlled, not eyeballed.", "name": "Dilnoza A.", "role": "Regular guest" },
+      { "text": "Came for the pour-over, stayed for the vibe. Calm, beautiful, and staff explain every brew method.", "name": "Sanjar K.", "role": "Weekend regular" },
+      { "text": "The QR menu with video is genius. Picked a drink in a minute and saw exactly how it's made.", "name": "Madina T.", "role": "First visit" }
+    ]
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "Come say hello",
+    "addressLabel": "Address",
+    "addressValue": "Tashkent, Mirzo Ulugbek district, Amir Temur St. 15",
+    "hoursLabel": "Hours",
+    "hoursWeek": "Mon–Fri: 08:00 – 22:00",
+    "hoursWeekend": "Sat–Sun: 09:00 – 23:00",
+    "phoneLabel": "Phone",
+    "qrTitle": "Digital menu",
+    "qrDesc": "Scan on the table to open the full 92° menu"
+  },
+  "footer": {
+    "tagline": "Specialty coffee house in Tashkent. Precision in every degree.",
+    "rights": "All rights reserved."
+  }
+}
