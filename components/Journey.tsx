@@ -24,7 +24,7 @@ export default function Journey() {
                 <span className="absolute top-4 right-4 sm:top-5 sm:right-5 font-mono text-[11px] text-warmgray-500">
                   0{i + 1}
                 </span>
-                <div className="font-mono text-copper-300 text-[12px] sm:text-[13px] tracking-wide">{stage.temp}</div>
+                <div className="font-mono text-pewter text-[12px] sm:text-[13px] tracking-wide">{stage.temp}</div>
                 <h3 className="text-[18px] sm:text-[20px] mt-3 sm:mt-3.5 pr-8">{stage.title}</h3>
                 <p className="text-[13px] sm:text-[13.5px] text-warmgray-500 mt-2 sm:mt-2.5 leading-relaxed">{stage.desc}</p>
               </GlassCard>

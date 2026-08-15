@@ -40,30 +40,30 @@ export default function Loader({ onDone }: { onDone: () => void }) {
     <AnimatePresence>
       {visible && (
         <motion.div
-          className="fixed inset-0 z-[999] bg-espresso-950 flex flex-col items-center justify-center gap-6"
+          className="fixed inset-0 z-[999] bg-midnight flex flex-col items-center justify-center gap-6"
           exit={{ opacity: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
           <div className="relative w-[132px] h-[132px]">
             <svg viewBox="0 0 120 120" className="w-full h-full -rotate-90">
-              <circle cx="60" cy="60" r={RADIUS} fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="3" />
+              <circle cx="60" cy="60" r={RADIUS} fill="none" stroke="rgba(236,239,250,0.12)" strokeWidth="3" />
               <circle
                 cx="60"
                 cy="60"
                 r={RADIUS}
                 fill="none"
-                stroke="#DDA875"
+                stroke="#c0bfc6"
                 strokeWidth="3"
                 strokeLinecap="round"
                 strokeDasharray={CIRCUMFERENCE}
                 strokeDashoffset={offset}
               />
             </svg>
-            <div className="absolute inset-0 flex items-center justify-center font-mono text-[26px] tracking-tight">
+            <div className="absolute inset-0 flex items-center justify-center font-mono text-[26px] tracking-tight text-frost">
               {value}°
             </div>
           </div>
-          <div className="font-mono text-[11px] tracking-[0.28em] uppercase text-warmgray-500">
+          <div className="font-mono text-[11px] tracking-[0.28em] uppercase text-nickel">
             {t.loader.word}
           </div>
         </motion.div>

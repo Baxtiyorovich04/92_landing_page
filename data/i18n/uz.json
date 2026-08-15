@@ -60,13 +60,13 @@
     "eyebrow": "Manzil",
     "title": "Bizga tashrif buyuring",
     "addressLabel": "Manzil",
-    "addressValue": "Toshkent, Mirzo Ulug'bek tumani, Amir Temur ko'chasi 15",
+    "addressValue": "Buyuk Ipak Yoʻli mahalla fuqarolar yigʻini, 2, Mirzo Ulugʻbek tumani, Toshkent",
     "hoursLabel": "Ish vaqti",
     "hoursWeek": "Dush–Juma: 08:00 – 22:00",
     "hoursWeekend": "Shan–Yak: 09:00 – 23:00",
     "phoneLabel": "Telefon",
-    "qrTitle": "Raqamli menyu",
-    "qrDesc": "To'liq 92° menyusini ochish uchun stoldagi kodni skanerlang"
+    "qrTitle": "To'liq menyu",
+    "qrDesc": "To'liq 92° menyusini ochish uchun bosing"
   },
   "footer": {
     "tagline": "Toshkentdagi maxsus qahvaxona. Har bir darajada aniqlik.",

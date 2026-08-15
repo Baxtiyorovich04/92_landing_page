@@ -8,25 +8,38 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Brand palette
+        midnight: {
+          DEFAULT: '#121820',
+          950: '#121820',
+          900: '#181e28',
+          850: '#1e2530'
+        },
+        chrome: '#9ea0a7',
+        nickel: '#7b7d7f',
+        frost: '#eceffa',
+        pewter: '#c0bfc6',
+
+        // Legacy aliases → new palette (keeps existing class names working)
         espresso: {
-          950: '#120E0A',
-          900: '#1B1611',
-          850: '#211B15'
+          950: '#121820',
+          900: '#181e28',
+          850: '#1e2530'
         },
         charcoal: {
-          800: '#2B241C'
+          800: '#2a3038'
         },
         warmgray: {
-          300: '#C9C0AE',
-          500: '#948A79'
+          300: '#9ea0a7',
+          500: '#7b7d7f'
         },
         mist: {
-          50: '#F6F3EC',
-          100: '#EFEAE0'
+          50: '#eceffa',
+          100: '#eceffa'
         },
         copper: {
-          300: '#DDA875',
-          500: '#B97A4B'
+          300: '#c0bfc6',
+          500: '#9ea0a7'
         }
       },
       fontFamily: {
@@ -35,11 +48,12 @@ const config: Config = {
         mono: ['var(--font-mono)', 'monospace']
       },
       boxShadow: {
-        glass: 'inset 0 1px 0 rgba(255,255,255,0.22), 0 20px 50px rgba(0,0,0,0.35)',
-        copperGlow: '0 10px 30px rgba(185,122,75,0.35)'
+        glass: 'inset 0 1px 0 rgba(236,239,250,0.18), 0 20px 50px rgba(0,0,0,0.4)',
+        copperGlow: '0 10px 30px rgba(158,160,167,0.28)',
+        steelGlow: '0 10px 30px rgba(192,191,198,0.25)'
       },
       backgroundImage: {
-        'glass-fill': 'linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.03))'
+        'glass-fill': 'linear-gradient(135deg, rgba(236,239,250,0.12), rgba(236,239,250,0.03))'
       },
       keyframes: {
         steam: {
@@ -55,8 +69,8 @@ const config: Config = {
           '50%': { opacity: '1' }
         },
         pinPulse: {
-          '0%, 100%': { boxShadow: '0 0 0 6px rgba(185,122,75,0.22), 0 0 24px rgba(185,122,75,0.35)' },
-          '50%': { boxShadow: '0 0 0 12px rgba(185,122,75,0.08), 0 0 30px rgba(185,122,75,0.35)' }
+          '0%, 100%': { boxShadow: '0 0 0 6px rgba(192,191,198,0.22), 0 0 24px rgba(158,160,167,0.3)' },
+          '50%': { boxShadow: '0 0 0 12px rgba(192,191,198,0.08), 0 0 30px rgba(158,160,167,0.3)' }
         }
       },
       animation: {

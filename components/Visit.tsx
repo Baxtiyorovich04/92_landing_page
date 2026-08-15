@@ -24,7 +24,7 @@ export default function Visit() {
               <iframe
                 title="92° Coffee location"
                 src={contact.mapEmbedUrl}
-                className="absolute inset-0 w-full h-full border-0 grayscale-[20%] contrast-[1.05]"
+                className="absolute inset-0 w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen
@@ -33,7 +33,7 @@ export default function Visit() {
                 href={contact.mapLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute bottom-3 right-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-espresso-950/85 backdrop-blur-md border border-white/15 px-3 py-1.5 text-[11px] font-mono tracking-wide text-mist-100 hover:bg-copper-500 hover:text-espresso-950 hover:border-copper-500 transition-colors"
+                className="absolute bottom-3 right-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-midnight/85 backdrop-blur-md border border-pewter/25 px-3 py-1.5 text-[11px] font-mono tracking-wide text-frost hover:bg-pewter hover:text-midnight hover:border-pewter transition-colors"
               >
                 Open in Maps
                 <ExternalLink className="w-3 h-3" strokeWidth={2} />
@@ -44,7 +44,7 @@ export default function Visit() {
           <Reveal delay={0.1}>
             <GlassCard className="rounded-[20px] sm:rounded-[24px] p-5 sm:p-7 md:p-9 h-full flex flex-col gap-5 sm:gap-6">
               <div className="flex gap-3.5 sm:gap-4 items-start">
-                <MapPin className="w-5 h-5 text-copper-300 mt-0.5 flex-shrink-0" strokeWidth={1.5} />
+                <MapPin className="w-5 h-5 text-pewter mt-0.5 flex-shrink-0" strokeWidth={1.5} />
                 <div className="min-w-0">
                   <div className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-warmgray-500">
                     {t.visit.addressLabel}
@@ -54,7 +54,7 @@ export default function Visit() {
               </div>
 
               <div className="flex gap-3.5 sm:gap-4 items-start">
-                <Clock className="w-5 h-5 text-copper-300 mt-0.5 flex-shrink-0" strokeWidth={1.5} />
+                <Clock className="w-5 h-5 text-pewter mt-0.5 flex-shrink-0" strokeWidth={1.5} />
                 <div className="min-w-0">
                   <div className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-warmgray-500">
                     {t.visit.hoursLabel}
@@ -68,12 +68,12 @@ export default function Visit() {
               </div>
 
               <div className="flex gap-3.5 sm:gap-4 items-start">
-                <Phone className="w-5 h-5 text-copper-300 mt-0.5 flex-shrink-0" strokeWidth={1.5} />
+                <Phone className="w-5 h-5 text-pewter mt-0.5 flex-shrink-0" strokeWidth={1.5} />
                 <div className="min-w-0">
                   <div className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-warmgray-500">
                     {t.visit.phoneLabel}
                   </div>
-                  <a href={`tel:${contact.phone.replace(/\s/g, '')}`} className="text-[14.5px] sm:text-[15.5px] mt-1 block hover:text-copper-300 transition-colors">
+                  <a href={`tel:${contact.phone.replace(/\s/g, '')}`} className="text-[14.5px] sm:text-[15.5px] mt-1 block hover:text-pewter transition-colors">
                     {contact.phone}
                   </a>
                 </div>
@@ -85,7 +85,7 @@ export default function Visit() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center hover:bg-copper-500 hover:border-copper-500 hover:text-espresso-950 transition-all hover:-translate-y-0.5"
+                  className="w-9 h-9 rounded-full border border-pewter/25 flex items-center justify-center hover:bg-pewter hover:border-pewter hover:text-midnight transition-all hover:-translate-y-0.5"
                 >
                   <Instagram className="w-4 h-4" strokeWidth={1.6} />
                 </a>
@@ -94,20 +94,27 @@ export default function Visit() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Telegram"
-                  className="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center hover:bg-copper-500 hover:border-copper-500 hover:text-espresso-950 transition-all hover:-translate-y-0.5"
+                  className="w-9 h-9 rounded-full border border-pewter/25 flex items-center justify-center hover:bg-pewter hover:border-pewter hover:text-midnight transition-all hover:-translate-y-0.5"
                 >
                   <Send className="w-4 h-4" strokeWidth={1.6} />
                 </a>
               </div>
 
-              <div className="mt-auto pt-4 sm:pt-5 border-t border-white/10 flex items-center gap-3.5 sm:gap-4">
-                <div className="w-14 h-14 sm:w-[68px] sm:h-[68px] rounded-xl sm:rounded-2xl bg-mist-50 flex items-center justify-center flex-shrink-0">
-                  <QrCode className="w-7 h-7 sm:w-9 sm:h-9 text-espresso-950" strokeWidth={1.4} />
-                </div>
-                <div className="min-w-0">
-                  <div className="text-[14px] sm:text-[15px] font-semibold">{t.visit.qrTitle}</div>
-                  <div className="text-[12px] sm:text-[13px] text-warmgray-500 mt-0.5">{t.visit.qrDesc}</div>
-                </div>
+              <div className="mt-auto pt-4 sm:pt-5 border-t border-white/10">
+                <a
+                  href={contact.menuUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3.5 sm:gap-4 group hover:opacity-90 transition-opacity"
+                >
+                  <div className="w-14 h-14 sm:w-[68px] sm:h-[68px] rounded-xl sm:rounded-2xl bg-frost flex items-center justify-center flex-shrink-0 group-hover:scale-[1.02] transition-transform">
+                    <QrCode className="w-7 h-7 sm:w-9 sm:h-9 text-midnight" strokeWidth={1.4} />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="text-[14px] sm:text-[15px] font-semibold group-hover:text-pewter transition-colors">{t.visit.qrTitle}</div>
+                    <div className="text-[12px] sm:text-[13px] text-warmgray-500 mt-0.5">{t.visit.qrDesc}</div>
+                  </div>
+                </a>
               </div>
             </GlassCard>
           </Reveal>

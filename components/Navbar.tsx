@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
+import { contact } from '@/data/content';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const LINKS: { key: 'journey' | 'menu' | 'gallery' | 'reviews' | 'visit'; href: string }[] = [
@@ -58,13 +59,13 @@ export default function Navbar() {
         <div className="max-w-[1240px] mx-auto px-4 sm:px-5 md:px-8">
           <nav className="glass flex items-center justify-between rounded-full py-2.5 sm:py-3 pl-4 sm:pl-6 pr-2.5 sm:pr-3">
             <a href="#top" className="font-display text-[17px] sm:text-[19px] font-medium flex items-center gap-1.5 sm:gap-2">
-              <span className="text-copper-300">92°</span>
+              <span className="text-pewter">92°</span>
               <span>Coffee</span>
             </a>
 
-            <div className="hidden md:flex items-center gap-8 text-sm text-warmgray-300">
+            <div className="hidden md:flex items-center gap-8 text-sm text-chrome">
               {LINKS.map((l) => (
-                <a key={l.key} href={l.href} className="relative py-1 nav-link hover:text-mist-100 transition-colors">
+                <a key={l.key} href={l.href} className="relative py-1 nav-link hover:text-frost transition-colors">
                   {t.nav[l.key]}
                 </a>
               ))}
@@ -74,7 +75,12 @@ export default function Navbar() {
               <div className="hidden sm:block">
                 <LanguageSwitcher />
               </div>
-              <a href="#menu" className="btn btn-primary hidden sm:inline-flex !px-4 !py-2.5 text-[13px]">
+              <a
+                href={contact.menuUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary hidden sm:inline-flex !px-4 !py-2.5 text-[13px]"
+              >
                 {t.nav.menuCta}
               </a>
               <button
@@ -84,17 +90,17 @@ export default function Navbar() {
                 className="md:hidden w-10 h-10 rounded-full border border-white/20 bg-white/5 relative z-[110]"
               >
                 <span
-                  className={`absolute left-3 right-3 h-px bg-mist-100 transition-all duration-300 ${
+                  className={`absolute left-3 right-3 h-px bg-frost transition-all duration-300 ${
                     open ? 'top-[19px] rotate-45' : 'top-[14px]'
                   }`}
                 />
                 <span
-                  className={`absolute left-3 right-3 h-px bg-mist-100 transition-all duration-300 top-[19px] ${
+                  className={`absolute left-3 right-3 h-px bg-frost transition-all duration-300 top-[19px] ${
                     open ? 'opacity-0' : 'opacity-100'
                   }`}
                 />
                 <span
-                  className={`absolute left-3 right-3 h-px bg-mist-100 transition-all duration-300 ${
+                  className={`absolute left-3 right-3 h-px bg-frost transition-all duration-300 ${
                     open ? 'top-[19px] -rotate-45' : 'top-[24px]'
                   }`}
                 />
@@ -110,7 +116,7 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[95] bg-espresso-950/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-6 sm:gap-8 md:hidden overflow-hidden touch-none"
+            className="fixed inset-0 z-[95] bg-midnight/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-6 sm:gap-8 md:hidden overflow-hidden touch-none"
           >
             {LINKS.map((l, i) => (
               <motion.a
@@ -145,7 +151,7 @@ export default function Navbar() {
           bottom: -2px;
           width: 0;
           height: 1px;
-          background: #dda875;
+          background: #c0bfc6;
           transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
         }
         .nav-link:hover::after {

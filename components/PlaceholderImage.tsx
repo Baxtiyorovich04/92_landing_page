@@ -24,8 +24,8 @@ export default function PlaceholderImage({ from, to, label, ratio = 'aspect-[4/3
             'repeating-linear-gradient(135deg, rgba(255,255,255,0.03) 0 2px, transparent 2px 14px)'
         }}
       />
-      <Camera className="w-8 h-8 text-mist-100/40 relative z-10" strokeWidth={1.4} />
-      <span className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-mist-100/45 relative z-10">
+      <Camera className="w-8 h-8 text-frost/40 relative z-10" strokeWidth={1.4} />
+      <span className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-frost/45 relative z-10">
         {label}
       </span>
     </div>

@@ -60,13 +60,13 @@
     "eyebrow": "Visit",
     "title": "Come say hello",
     "addressLabel": "Address",
-    "addressValue": "Tashkent, Mirzo Ulugbek district, Amir Temur St. 15",
+    "addressValue": "Buyuk Ipak Yoli neighborhood citizens' assembly, 2, Mirzo Ulugbek district, Tashkent",
     "hoursLabel": "Hours",
     "hoursWeek": "Mon–Fri: 08:00 – 22:00",
     "hoursWeekend": "Sat–Sun: 09:00 – 23:00",
     "phoneLabel": "Phone",
-    "qrTitle": "Digital menu",
-    "qrDesc": "Scan on the table to open the full 92° menu"
+    "qrTitle": "Full menu",
+    "qrDesc": "Tap to open the full 92° menu"
   },
   "footer": {
     "tagline": "Specialty coffee house in Tashkent. Precision in every degree.",

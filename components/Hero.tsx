@@ -27,7 +27,7 @@ export default function Hero() {
           <motion.h1 variants={itemVariants} className="text-[34px] sm:text-[52px] lg:text-[76px] tracking-tight mt-3 sm:mt-4 leading-[1.08]">
             {t.hero.title1}
             <br />
-            <em className="not-italic italic font-normal text-copper-300">{t.hero.title2}</em>
+            <em className="not-italic italic font-normal text-pewter">{t.hero.title2}</em>
           </motion.h1>
           <motion.p
             variants={itemVariants}
@@ -45,7 +45,7 @@ export default function Hero() {
         >
           <div className="absolute w-[100%] sm:w-[110%] h-[100%] sm:h-[110%] rounded-full border border-white/[0.08] animate-spin-slow" />
           <div className="absolute w-[112%] sm:w-[124%] h-[112%] sm:h-[124%] rounded-full border border-white/[0.08] animate-spin-slow-rev">
-            <div className="absolute w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-copper-300 shadow-[0_0_12px_rgba(185,122,75,0.35)] -top-1 left-1/2" />
+            <div className="absolute w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-pewter shadow-[0_0_12px_rgba(192,191,198,0.4)] -top-1 left-1/2" />
           </div>
 
           <GlassCard className="w-[min(280px,72vw)] sm:w-[min(360px,80vw)] aspect-square rounded-full flex flex-col items-center justify-center gap-1.5 relative">
@@ -53,7 +53,7 @@ export default function Hero() {
             <span className="absolute left-1/2 bottom-[60%] w-[3px] h-[70px] sm:h-[90px] rounded bg-gradient-to-t from-transparent via-white/35 to-transparent opacity-60 animate-steam [animation-delay:1.1s]" />
             <span className="absolute left-[62%] bottom-[60%] w-[3px] h-[45px] sm:h-[60px] rounded bg-gradient-to-t from-transparent via-white/35 to-transparent opacity-60 animate-steam [animation-delay:2.2s]" />
             <div className="font-mono font-semibold text-[64px] sm:text-[88px] leading-none tracking-tight">
-              92<sup className="text-[26px] sm:text-[36px] text-copper-300">°</sup>
+              92<sup className="text-[26px] sm:text-[36px] text-pewter">°</sup>
             </div>
             <div className="font-mono text-[9px] sm:text-[11px] tracking-[0.3em] uppercase text-warmgray-500">
               {t.hero.gaugeCap}
@@ -64,7 +64,7 @@ export default function Hero() {
 
       <div className="absolute bottom-5 sm:bottom-7 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 font-mono text-[10px] tracking-[0.2em] uppercase text-warmgray-500">
         <span>{t.hero.scroll}</span>
-        <span className="w-px h-6 sm:h-8 bg-gradient-to-b from-copper-300 to-transparent animate-pulse-line" />
+        <span className="w-px h-6 sm:h-8 bg-gradient-to-b from-pewter to-transparent animate-pulse-line" />
       </div>
     </section>
   );
