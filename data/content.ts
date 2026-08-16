@@ -16,12 +16,24 @@ export const menuCarouselImages = [
   { id: '27', src: '/assets/27.jpg', alt: 'Drink 27' }
 ];
 
+// Resized professional photos for hero interactive gallery
+export const heroImages = [
+  { id: '1001', src: '/assets/IMGL1001_resized.jpg', alt: '92° drink' },
+  { id: '4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° interior' },
+  { id: '4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
+  { id: '4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' },
+  { id: '4916', src: '/assets/IMGL4916_resized.jpg', alt: '92° cup' },
+  { id: '5021', src: '/assets/IMGL5021_resized.jpg', alt: '92° space' }
+];
+
 // Named atmosphere / carousel photos from /public/assets
 export const galleryCarouselImages = [
   { id: 'inside-2', src: '/assets/inside_2.jpg', alt: 'Interior' },
   { id: 'inside-coffee', src: '/assets/inside_with_coffe.jpg', alt: 'Interior with coffee' },
   { id: 'inside-cafe', src: '/assets/inside_with_cofe.jpg', alt: 'Cafe interior' },
-  { id: 'imgl', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° space' }
+  { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° space' },
+  { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
+  { id: 'imgl-4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' }
 ];
 
 export const galleryVisuals = [
