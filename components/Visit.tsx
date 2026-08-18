@@ -35,7 +35,7 @@ export default function Visit() {
                 rel="noopener noreferrer"
                 className="absolute bottom-3 right-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-midnight/85 backdrop-blur-md border border-pewter/25 px-3 py-1.5 text-[11px] font-mono tracking-wide text-frost hover:bg-pewter hover:text-midnight hover:border-pewter transition-colors"
               >
-                Open in Maps
+                Open in Yandex
                 <ExternalLink className="w-3 h-3" strokeWidth={2} />
               </a>
             </GlassCard>

@@ -31,9 +31,9 @@
     ]
   },
   "menu": {
-    "eyebrow": "Menu",
-    "title": "What we brew",
-    "subtitle": "The full menu lives in the QR code on your table, or below. Here are the categories to get oriented.",
+    "eyebrow": "Our craft",
+    "title": "What we create in every cup",
+    "subtitle": "Every drink at 92° is shaped as a balance of flavor, texture, and mood. Below is our coffee selection, arranged like a small collection.",
     "categories": [
       { "id": "espresso", "name": "Espresso-based", "desc": "Classics and signature twists — from ristretto to flat white.", "count": "12 drinks" },
       { "id": "alt", "name": "Alternative brew", "desc": "Pour-over, dripper, aeropress — for those who notice nuance.", "count": "6 methods" },
@@ -44,7 +44,7 @@
   "gallery": {
     "eyebrow": "Atmosphere",
     "title": "Inside 92°",
-    "subtitle": "Interior and drink photos will live here — placeholders hold their place for now.",
+    "subtitle": "Moments and vibe of the coffee house.",
     "items": ["Interior", "Bar", "Drink", "Beans", "Guests", "Dessert"]
   },
   "reviews": {

@@ -10,50 +10,50 @@ const config: Config = {
       colors: {
         // Brand palette
         midnight: {
-          DEFAULT: '#121820',
-          950: '#121820',
-          900: '#181e28',
-          850: '#1e2530'
+          DEFAULT: '#38383B',
+          950: '#38383B',
+          900: '#2f2f32',
+          850: '#262629'
         },
-        chrome: '#9ea0a7',
-        nickel: '#7b7d7f',
-        frost: '#eceffa',
-        pewter: '#c0bfc6',
+        chrome: '#C5C5C7',
+        nickel: '#8f8f92',
+        frost: '#e3e3e5',
+        pewter: '#b8b8ba',
 
         // Legacy aliases → new palette (keeps existing class names working)
         espresso: {
-          950: '#121820',
-          900: '#181e28',
-          850: '#1e2530'
+          950: '#38383B',
+          900: '#2f2f32',
+          850: '#262629'
         },
         charcoal: {
-          800: '#2a3038'
+          800: '#2f2f32'
         },
         warmgray: {
-          300: '#9ea0a7',
-          500: '#7b7d7f'
+          300: '#C5C5C7',
+          500: '#8f8f92'
         },
         mist: {
-          50: '#eceffa',
-          100: '#eceffa'
+          50: '#C5C5C7',
+          100: '#C5C5C7'
         },
         copper: {
-          300: '#c0bfc6',
-          500: '#9ea0a7'
+          300: '#b8b8ba',
+          500: '#C5C5C7'
         }
       },
       fontFamily: {
-        display: ['var(--font-fraunces)', 'serif'],
-        body: ['var(--font-inter)', 'sans-serif'],
-        mono: ['var(--font-mono)', 'monospace']
+        display: ['"Bicubik"', 'sans-serif'],
+        body: ['"Bicubik"', 'sans-serif'],
+        mono: ['"Bicubik"', 'sans-serif']
       },
       boxShadow: {
-        glass: 'inset 0 1px 0 rgba(236,239,250,0.18), 0 20px 50px rgba(0,0,0,0.4)',
-        copperGlow: '0 10px 30px rgba(158,160,167,0.28)',
-        steelGlow: '0 10px 30px rgba(192,191,198,0.25)'
+        glass: 'inset 0 1px 0 rgba(197,197,199,0.18), 0 20px 50px rgba(0,0,0,0.4)',
+        copperGlow: '0 10px 30px rgba(197,197,199,0.28)',
+        steelGlow: '0 10px 30px rgba(197,197,199,0.25)'
       },
       backgroundImage: {
-        'glass-fill': 'linear-gradient(135deg, rgba(236,239,250,0.12), rgba(236,239,250,0.03))'
+        'glass-fill': 'linear-gradient(135deg, rgba(197,197,199,0.12), rgba(197,197,199,0.03))'
       },
       keyframes: {
         steam: {
@@ -69,8 +69,8 @@ const config: Config = {
           '50%': { opacity: '1' }
         },
         pinPulse: {
-          '0%, 100%': { boxShadow: '0 0 0 6px rgba(192,191,198,0.22), 0 0 24px rgba(158,160,167,0.3)' },
-          '50%': { boxShadow: '0 0 0 12px rgba(192,191,198,0.08), 0 0 30px rgba(158,160,167,0.3)' }
+          '0%, 100%': { boxShadow: '0 0 0 6px rgba(197,197,199,0.22), 0 0 24px rgba(197,197,199,0.3)' },
+          '50%': { boxShadow: '0 0 0 12px rgba(197,197,199,0.08), 0 0 30px rgba(197,197,199,0.3)' }
         }
       },
       animation: {

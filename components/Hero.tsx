@@ -22,9 +22,6 @@ export default function Hero() {
     <section id="top" className="relative pt-24 pb-14 sm:pt-[120px] sm:pb-20 md:min-h-[100svh] md:flex md:items-center overflow-hidden">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-5 md:px-8 w-full grid grid-cols-1 md:grid-cols-[1.05fr_0.95fr] gap-8 md:gap-10 lg:gap-14 items-center">
         <motion.div variants={containerVariants} initial="hidden" animate="show" className="text-center md:text-left order-1">
-          <motion.div variants={itemVariants} className="eyebrow justify-center md:justify-start">
-            {t.hero.eyebrow}
-          </motion.div>
           <motion.h1 variants={itemVariants} className="text-[32px] sm:text-[48px] lg:text-[72px] tracking-tight mt-3 sm:mt-4 leading-[1.08]">
             {t.hero.title1}
             <br />

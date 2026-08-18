@@ -3,8 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCards, Autoplay } from 'swiper/modules';
-import type { Swiper as SwiperType } from 'swiper';
+import { EffectCards } from 'swiper/modules';
 import { heroImages } from '@/data/content';
 
 import 'swiper/css';
@@ -21,18 +20,18 @@ export default function HeroVisual() {
       />
 
       <Swiper
-        modules={[EffectCards, Autoplay]}
+        modules={[EffectCards]}
         effect="cards"
         grabCursor
-        loop
-        speed={700}
-        autoplay={{ delay: 3200, disableOnInteraction: false, pauseOnMouseEnter: true }}
+        loop={false}
+        rewind
+        speed={550}
         cardsEffect={{
           perSlideOffset: 10,
           perSlideRotate: 3,
           slideShadows: false
         }}
-        onSlideChange={(swiper: SwiperType) => setActive(swiper.realIndex)}
+        onSlideChange={(swiper) => setActive(swiper.realIndex)}
         className="hero-cards !overflow-visible w-[min(100%,280px)] sm:w-[320px] mx-auto"
       >
         {heroImages.map((item) => (

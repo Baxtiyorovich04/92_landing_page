@@ -31,9 +31,9 @@
     ]
   },
   "menu": {
-    "eyebrow": "Menyu",
-    "title": "Biz nima damlaymiz",
-    "subtitle": "To'liq menyu stoldagi QR-kodda yoki quyida. Bu yerda — yo'nalish uchun kategoriyalar.",
+    "eyebrow": "Bizning san'atimiz",
+    "title": "Har bir chashkada yaratadiganimiz",
+    "subtitle": "92° dagi har bir ichimlik ta'm, tekstura va kayfiyat muvozanati bilan yaratiladi. Quyida — kichik kolleksiya kabi jamlangan tanlovimiz.",
     "categories": [
       { "id": "espresso", "name": "Espresso asosida", "desc": "Klassika va mualliflik variatsiyalar — ristrettodan flet uaytgacha.", "count": "12 ichimlik" },
       { "id": "alt", "name": "Alternativ usul", "desc": "Pur-over, dripper, aeropress — nuanslarni his qiladiganlar uchun.", "count": "6 usul" },
@@ -43,8 +43,8 @@
   },
   "gallery": {
     "eyebrow": "Muhit",
-    "title": "92° ichkarisida",
-    "subtitle": "Interyer va ichimlik suratlari shu yerda bo'ladi — hozircha o'rnini maketlar egallab turibdi.",
+    "title": "92° ichida",
+    "subtitle": "Qahvaxona lahzalari va vibe.",
     "items": ["Interyer", "Bar", "Ichimlik", "Donlar", "Mehmonlar", "Desert"]
   },
   "reviews": {

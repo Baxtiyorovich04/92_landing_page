@@ -18,12 +18,17 @@ export const menuCarouselImages = [
 
 // Resized professional photos for hero interactive gallery
 export const heroImages = [
+  { id: '0418', src: '/assets/IMGL0418-3_resized.jpg', alt: '92° detail' },
   { id: '1001', src: '/assets/IMGL1001_resized.jpg', alt: '92° drink' },
+  { id: '4786', src: '/assets/IMGL4786_resized.jpg', alt: '92° atmosphere' },
   { id: '4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° interior' },
   { id: '4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
   { id: '4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' },
+  { id: '4897', src: '/assets/IMGL4897-2_resized.jpg', alt: '92° signature drink' },
   { id: '4916', src: '/assets/IMGL4916_resized.jpg', alt: '92° cup' },
-  { id: '5021', src: '/assets/IMGL5021_resized.jpg', alt: '92° space' }
+  { id: '5012', src: '/assets/IMGL5012_resized.jpg', alt: '92° table moment' },
+  { id: '5021', src: '/assets/IMGL5021_resized.jpg', alt: '92° space' },
+  { id: '5058', src: '/assets/IMGL5058_resized.jpg', alt: '92° coffee scene' }
 ];
 
 // Named atmosphere / carousel photos from /public/assets
@@ -34,6 +39,12 @@ export const galleryCarouselImages = [
   { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° space' },
   { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
   { id: 'imgl-4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' }
+];
+
+export const galleryVideos = [
+  { id: 'video-1', src: '/videos/video_1.mp4', label: 'Inside 92°' },
+  { id: 'video-2', src: '/videos/video_2.mp4', label: '92° vibe' },
+  { id: 'video-about', src: '/videos/video_about_92.mp4', label: 'Coffee mood' }
 ];
 
 export const galleryVisuals = [
@@ -55,5 +66,5 @@ export const contact = {
   lng: 69.288568,
   mapEmbedUrl:
     'https://www.openstreetmap.org/export/embed.html?bbox=69.283568%2C41.30688%2C69.293568%2C41.31688&layer=mapnik&marker=41.31188%2C69.288568',
-  mapLink: 'https://www.google.com/maps?q=41.311880,69.288568'
+  mapLink: 'https://yandex.uz/maps/?ll=69.288568%2C41.31188&mode=search&pt=69.288568,41.31188&z=17'
 };
