@@ -9,36 +9,36 @@ export const menuVisuals: Record<string, { from: string; to: string; icon: 'coff
 
 // Numbered professional drink photos from /public/assets
 export const menuCarouselImages = [
-  { id: '1', src: '/assets/1.JPG', alt: 'Drink 1' },
-  { id: '4', src: '/assets/4.JPG', alt: 'Drink 4' },
-  { id: '10', src: '/assets/10.JPG', alt: 'Drink 10' },
-  { id: '18', src: '/assets/18.JPG', alt: 'Drink 18' },
-  { id: '27', src: '/assets/27.jpg', alt: 'Drink 27' }
+  { id: '1', src: '/assets/1.webp', alt: 'Drink 1' },
+  { id: '4', src: '/assets/4.webp', alt: 'Drink 4' },
+  { id: '10', src: '/assets/10.webp', alt: 'Drink 10' },
+  { id: '18', src: '/assets/18.webp', alt: 'Drink 18' },
+  { id: '27', src: '/assets/27.webp', alt: 'Drink 27' }
 ];
 
 // Resized professional photos for hero interactive gallery
 export const heroImages = [
-  { id: '0418', src: '/assets/IMGL0418-3_resized.jpg', alt: '92° detail' },
-  { id: '1001', src: '/assets/IMGL1001_resized.jpg', alt: '92° drink' },
-  { id: '4786', src: '/assets/IMGL4786_resized.jpg', alt: '92° atmosphere' },
-  { id: '4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° interior' },
-  { id: '4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
-  { id: '4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' },
-  { id: '4897', src: '/assets/IMGL4897-2_resized.jpg', alt: '92° signature drink' },
-  { id: '4916', src: '/assets/IMGL4916_resized.jpg', alt: '92° cup' },
-  { id: '5012', src: '/assets/IMGL5012_resized.jpg', alt: '92° table moment' },
-  { id: '5021', src: '/assets/IMGL5021_resized.jpg', alt: '92° space' },
-  { id: '5058', src: '/assets/IMGL5058_resized.jpg', alt: '92° coffee scene' }
+  { id: '0418', src: '/assets/IMGL0418-3_resized.webp', alt: '92° detail' },
+  { id: '1001', src: '/assets/IMGL1001_resized.webp', alt: '92° drink' },
+  { id: '4786', src: '/assets/IMGL4786_resized.webp', alt: '92° atmosphere' },
+  { id: '4819', src: '/assets/IMGL4819-2_resized.webp', alt: '92° interior' },
+  { id: '4826', src: '/assets/IMGL4826-2_resized.webp', alt: '92° moment' },
+  { id: '4866', src: '/assets/IMGL4866_resized.webp', alt: '92° brew' },
+  { id: '4897', src: '/assets/IMGL4897-2_resized.webp', alt: '92° signature drink' },
+  { id: '4916', src: '/assets/IMGL4916_resized.webp', alt: '92° cup' },
+  { id: '5012', src: '/assets/IMGL5012_resized.webp', alt: '92° table moment' },
+  { id: '5021', src: '/assets/IMGL5021_resized.webp', alt: '92° space' },
+  { id: '5058', src: '/assets/IMGL5058_resized.webp', alt: '92° coffee scene' }
 ];
 
 // Named atmosphere / carousel photos from /public/assets
 export const galleryCarouselImages = [
-  { id: 'inside-2', src: '/assets/inside_2.jpg', alt: 'Interior' },
-  { id: 'inside-coffee', src: '/assets/inside_with_coffe.jpg', alt: 'Interior with coffee' },
-  { id: 'inside-cafe', src: '/assets/inside_with_cofe.jpg', alt: 'Cafe interior' },
-  { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.jpg', alt: '92° space' },
-  { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.jpg', alt: '92° moment' },
-  { id: 'imgl-4866', src: '/assets/IMGL4866_resized.jpg', alt: '92° brew' }
+  { id: 'inside-2', src: '/assets/inside_2.webp', alt: 'Interior' },
+  { id: 'inside-coffee', src: '/assets/inside_with_coffe.webp', alt: 'Interior with coffee' },
+  { id: 'inside-cafe', src: '/assets/inside_with_cofe.webp', alt: 'Cafe interior' },
+  { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.webp', alt: '92° space' },
+  { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.webp', alt: '92° moment' },
+  { id: 'imgl-4866', src: '/assets/IMGL4866_resized.webp', alt: '92° brew' }
 ];
 
 export const galleryVideos = [
