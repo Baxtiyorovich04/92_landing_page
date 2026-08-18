@@ -1,5 +1,7 @@
 {
-  "loader": { "word": "Ideal chashka isitilmoqda" },
+  "loader": {
+    "word": "Ideal chashka isitilmoqda"
+  },
   "nav": {
     "journey": "Jarayon",
     "menu": "Menyu",
@@ -23,11 +25,31 @@
     "title": "92° ga yo'l",
     "subtitle": "Beshta bosqich, har biri o'z haroratida. Bir daraja chetga — ta'm boshqacha bo'ladi.",
     "stages": [
-      { "temp": "18–22°", "title": "Don", "desc": "Xom donlarni fermerlardan tanlaymiz, ta'm salohiyatini saqlash uchun salqinda saqlaymiz." },
-      { "temp": "200–230°", "title": "Qovurish", "desc": "Kichik partiyalarda sekin qovurish — don tuzilishini kuydirmasdan shakarni ochadi." },
-      { "temp": "room", "title": "Maydalash", "desc": "Har bir ichimlik uchun yangi maydalash — espressodan pur-overgacha, alohida sozlama." },
-      { "temp": "92°", "title": "Damlash", "desc": "Aynan 92° — suv ta'mni to'liq, achchiqliksiz ochadigan nuqta." },
-      { "temp": "60–65°", "title": "Tortish", "desc": "Aromat cho'qqisida darhol tortamiz — chashkadan sizgacha soniyalarda." }
+      {
+        "temp": "18–22°",
+        "title": "Don",
+        "desc": "Xom donlarni fermerlardan tanlaymiz, ta'm salohiyatini saqlash uchun salqinda saqlaymiz."
+      },
+      {
+        "temp": "200–230°",
+        "title": "Qovurish",
+        "desc": "Kichik partiyalarda sekin qovurish — don tuzilishini kuydirmasdan shakarni ochadi."
+      },
+      {
+        "temp": "room",
+        "title": "Maydalash",
+        "desc": "Har bir ichimlik uchun yangi maydalash — espressodan pur-overgacha, alohida sozlama."
+      },
+      {
+        "temp": "92°",
+        "title": "Damlash",
+        "desc": "Aynan 92° — suv ta'mni to'liq, achchiqliksiz ochadigan nuqta."
+      },
+      {
+        "temp": "60–65°",
+        "title": "Tortish",
+        "desc": "Aromat cho'qqisida darhol tortamiz — chashkadan sizgacha soniyalarda."
+      }
     ]
   },
   "menu": {
@@ -35,35 +57,75 @@
     "title": "Har bir chashkada yaratadiganimiz",
     "subtitle": "92° dagi har bir ichimlik ta'm, tekstura va kayfiyat muvozanati bilan yaratiladi. Quyida — kichik kolleksiya kabi jamlangan tanlovimiz.",
     "categories": [
-      { "id": "espresso", "name": "Espresso asosida", "desc": "Klassika va mualliflik variatsiyalar — ristrettodan flet uaytgacha.", "count": "12 ichimlik" },
-      { "id": "alt", "name": "Alternativ usul", "desc": "Pur-over, dripper, aeropress — nuanslarni his qiladiganlar uchun.", "count": "6 usul" },
-      { "id": "nocoffee", "name": "Qahvasiz", "desc": "Matcha, kakao, tanlangan choylar — issiq va sarguzasht.", "count": "8 ichimlik" },
-      { "id": "sweets", "name": "Qahvaga qo'shimcha", "desc": "O'z ishlab chiqarishimiz desertlari va pishiriqlari.", "count": "10 pozitsiya" }
+      {
+        "id": "espresso",
+        "name": "Espresso asosida",
+        "desc": "Klassika va mualliflik variatsiyalar — ristrettodan flet uaytgacha.",
+        "count": "12 ichimlik"
+      },
+      {
+        "id": "alt",
+        "name": "Alternativ usul",
+        "desc": "Pur-over, dripper, aeropress — nuanslarni his qiladiganlar uchun.",
+        "count": "6 usul"
+      },
+      {
+        "id": "nocoffee",
+        "name": "Qahvasiz",
+        "desc": "Matcha, kakao, tanlangan choylar — issiq va sarguzasht.",
+        "count": "8 ichimlik"
+      },
+      {
+        "id": "sweets",
+        "name": "Qahvaga qo'shimcha",
+        "desc": "O'z ishlab chiqarishimiz desertlari va pishiriqlari.",
+        "count": "10 pozitsiya"
+      }
     ]
   },
   "gallery": {
     "eyebrow": "Muhit",
     "title": "92° ichida",
     "subtitle": "Qahvaxona lahzalari va vibe.",
-    "items": ["Interyer", "Bar", "Ichimlik", "Donlar", "Mehmonlar", "Desert"]
+    "items": [
+      "Interyer",
+      "Bar",
+      "Ichimlik",
+      "Donlar",
+      "Mehmonlar",
+      "Desert"
+    ]
   },
   "reviews": {
     "eyebrow": "Sharhlar",
     "title": "Mehmonlar fikri",
+    "ratingFrom": "Yandexda 16 baho",
+    "source": "Barcha sharhlarni Yandex Mapsda ko‘rish",
     "items": [
-      { "text": "Shahardagi eng yaxshi flet uayt. Harorat va vaqt haqiqatan nazorat qilinishi sezilib turadi.", "name": "Dilnoza A.", "role": "Doimiy mehmon" },
-      { "text": "Pur-over uchun keldim — muhit uchun qoldim. Tinch, chiroyli, xodimlar har bir usulni tushuntiradi.", "name": "Sanjar K.", "role": "Dam olish kuni mehmoni" },
-      { "text": "Videoli QR-menyu — juda oddiy va aqlli. Bir daqiqada ichimlik tanladim va uni qanday tayyorlashini ko'rdim.", "name": "Madina T.", "role": "Birinchi tashrif" }
+      {
+        "text": "Shahardagi eng yaxshi flet uayt. Harorat va vaqt haqiqatan nazorat qilinishi sezilib turadi.",
+        "name": "Dilnoza A.",
+        "role": "Doimiy mehmon"
+      },
+      {
+        "text": "Pur-over uchun keldim — muhit uchun qoldim. Tinch, chiroyli, xodimlar har bir usulni tushuntiradi.",
+        "name": "Sanjar K.",
+        "role": "Dam olish kuni mehmoni"
+      },
+      {
+        "text": "Videoli QR-menyu — juda oddiy va aqlli. Bir daqiqada ichimlik tanladim va uni qanday tayyorlashini ko'rdim.",
+        "name": "Madina T.",
+        "role": "Birinchi tashrif"
+      }
     ]
   },
   "visit": {
     "eyebrow": "Manzil",
     "title": "Bizga tashrif buyuring",
     "addressLabel": "Manzil",
-    "addressValue": "Buyuk Ipak Yoʻli mahalla fuqarolar yigʻini, 2, Mirzo Ulugʻbek tumani, Toshkent",
-    "hoursLabel": "Ish vaqti",
-    "hoursWeek": "Dush–Juma: 08:00 – 22:00",
-    "hoursWeekend": "Shan–Yak: 09:00 – 23:00",
+    "addressValue": "Toshkent, Mirzo Ulugʻbek tumani, S-1 Buyuk Ipak Yoʻli dahasi,6",
+    "hoursLabel": "Ish vaqti","hoursWeek": "Dush–Juma: 08:00 – 22:00",
+    "hoursWeekend": "Shan–Yak: 08:00 – 23:00",
     "phoneLabel": "Telefon",
     "qrTitle": "To'liq menyu",
     "qrDesc": "To'liq 92° menyusini ochish uchun bosing"

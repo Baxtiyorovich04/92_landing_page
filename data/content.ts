@@ -47,6 +47,39 @@ export const galleryVideos = [
   { id: 'video-about', src: '/videos/video_about_92.mp4', label: 'Coffee mood' }
 ];
 
+export const yandexReviews = {
+  rating: 4.8,
+  ratingsCount: 16,
+  reviewsCount: 14,
+  url: 'https://yandex.uz/maps/org/92degree/51966742093/reviews/',
+  items: [
+    {
+      name: 'Maruan Oweid',
+      text: "To be honest, as a foreigner living here in Tashkent, it's the best coffee you can find in this city, and the staff is very friendly, polite, and attentive."
+    },
+    {
+      name: 'Julia Drzymala',
+      text: 'New spot, new vibe, something very different in Tashkent, a lot of cool drinks and the aesthetic 10/10.'
+    },
+    {
+      name: 'Рухшона Адилова',
+      text: 'Кофейня супер атмосферная, большой плюс за необычный интерьер, персонал любезный и дружелюбный.'
+    },
+    {
+      name: 'Н А',
+      text: 'Очень люблю кофейню 92. Всегда уютно и вкусно. Мои фавориты — спаниш латте, карамельный фраппе и Ice Special 92.'
+    },
+    {
+      name: 'Малика Абдурахимова',
+      text: 'Очень атмосферное место. Бариста готовит нереальные напитки — особенно Special 92 и карамельный фрапп.'
+    },
+    {
+      name: 'Madina Burieva',
+      text: 'Лучшее кофе, которое я пробовала в Ташкенте. Уютная атмосфера, приветливый сервис, pet friendly.'
+    }
+  ]
+};
+
 export const galleryVisuals = [
   { from: '#2a3038', to: '#121820' },
   { from: '#323840', to: '#181e28' },

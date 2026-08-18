@@ -1,5 +1,7 @@
 {
-  "loader": { "word": "Heating the perfect cup" },
+  "loader": {
+    "word": "Heating the perfect cup"
+  },
   "nav": {
     "journey": "Process",
     "menu": "Menu",
@@ -23,11 +25,31 @@
     "title": "The road to 92°",
     "subtitle": "Five stages, each at its own temperature. One degree off, and the taste changes.",
     "stages": [
-      { "temp": "18–22°", "title": "Bean", "desc": "We source green beans from farmers and keep them cool to protect their flavor potential." },
-      { "temp": "200–230°", "title": "Roast", "desc": "Slow-roasted in small batches — unlocking sugars without burning the bean's structure." },
-      { "temp": "room", "title": "Grind", "desc": "Freshly ground per drink — from espresso to pour-over, each with its own setting." },
-      { "temp": "92°", "title": "Brew", "desc": "Exactly 92° — the point where water extracts full flavor without bitterness." },
-      { "temp": "60–65°", "title": "Serve", "desc": "Served instantly, while the aroma peaks — from cup to you in seconds." }
+      {
+        "temp": "18–22°",
+        "title": "Bean",
+        "desc": "We source green beans from farmers and keep them cool to protect their flavor potential."
+      },
+      {
+        "temp": "200–230°",
+        "title": "Roast",
+        "desc": "Slow-roasted in small batches — unlocking sugars without burning the bean's structure."
+      },
+      {
+        "temp": "room",
+        "title": "Grind",
+        "desc": "Freshly ground per drink — from espresso to pour-over, each with its own setting."
+      },
+      {
+        "temp": "92°",
+        "title": "Brew",
+        "desc": "Exactly 92° — the point where water extracts full flavor without bitterness."
+      },
+      {
+        "temp": "60–65°",
+        "title": "Serve",
+        "desc": "Served instantly, while the aroma peaks — from cup to you in seconds."
+      }
     ]
   },
   "menu": {
@@ -35,35 +57,76 @@
     "title": "What we create in every cup",
     "subtitle": "Every drink at 92° is shaped as a balance of flavor, texture, and mood. Below is our coffee selection, arranged like a small collection.",
     "categories": [
-      { "id": "espresso", "name": "Espresso-based", "desc": "Classics and signature twists — from ristretto to flat white.", "count": "12 drinks" },
-      { "id": "alt", "name": "Alternative brew", "desc": "Pour-over, dripper, aeropress — for those who notice nuance.", "count": "6 methods" },
-      { "id": "nocoffee", "name": "Non-coffee", "desc": "Matcha, cocoa, curated teas — warm and refreshing.", "count": "8 drinks" },
-      { "id": "sweets", "name": "With coffee", "desc": "House-made desserts and pastries.", "count": "10 items" }
+      {
+        "id": "espresso",
+        "name": "Espresso-based",
+        "desc": "Classics and signature twists — from ristretto to flat white.",
+        "count": "12 drinks"
+      },
+      {
+        "id": "alt",
+        "name": "Alternative brew",
+        "desc": "Pour-over, dripper, aeropress — for those who notice nuance.",
+        "count": "6 methods"
+      },
+      {
+        "id": "nocoffee",
+        "name": "Non-coffee",
+        "desc": "Matcha, cocoa, curated teas — warm and refreshing.",
+        "count": "8 drinks"
+      },
+      {
+        "id": "sweets",
+        "name": "With coffee",
+        "desc": "House-made desserts and pastries.",
+        "count": "10 items"
+      }
     ]
   },
   "gallery": {
     "eyebrow": "Atmosphere",
     "title": "Inside 92°",
     "subtitle": "Moments and vibe of the coffee house.",
-    "items": ["Interior", "Bar", "Drink", "Beans", "Guests", "Dessert"]
+    "items": [
+      "Interior",
+      "Bar",
+      "Drink",
+      "Beans",
+      "Guests",
+      "Dessert"
+    ]
   },
   "reviews": {
     "eyebrow": "Reviews",
     "title": "What guests say",
+    "ratingFrom": "16 ratings on Yandex Maps",
+    "source": "See all reviews on Yandex Maps",
     "items": [
-      { "text": "Best flat white in town. You can tell temperature and timing are actually controlled, not eyeballed.", "name": "Dilnoza A.", "role": "Regular guest" },
-      { "text": "Came for the pour-over, stayed for the vibe. Calm, beautiful, and staff explain every brew method.", "name": "Sanjar K.", "role": "Weekend regular" },
-      { "text": "The QR menu with video is genius. Picked a drink in a minute and saw exactly how it's made.", "name": "Madina T.", "role": "First visit" }
+      {
+        "text": "Best flat white in town. You can tell temperature and timing are actually controlled, not eyeballed.",
+        "name": "Dilnoza A.",
+        "role": "Regular guest"
+      },
+      {
+        "text": "Came for the pour-over, stayed for the vibe. Calm, beautiful, and staff explain every brew method.",
+        "name": "Sanjar K.",
+        "role": "Weekend regular"
+      },
+      {
+        "text": "The QR menu with video is genius. Picked a drink in a minute and saw exactly how it's made.",
+        "name": "Madina T.",
+        "role": "First visit"
+      }
     ]
   },
   "visit": {
     "eyebrow": "Visit",
     "title": "Come say hello",
     "addressLabel": "Address",
-    "addressValue": "Buyuk Ipak Yoli neighborhood citizens' assembly, 2, Mirzo Ulugbek district, Tashkent",
+    "addressValue": "Tashkent, Mirzo Ulugbek district, S-1 Buyuk Ipak Yoli dahasi, 6",
     "hoursLabel": "Hours",
     "hoursWeek": "Mon–Fri: 08:00 – 22:00",
-    "hoursWeekend": "Sat–Sun: 09:00 – 23:00",
+    "hoursWeekend": "Sat–Sun: 08:00 – 23:00",
     "phoneLabel": "Phone",
     "qrTitle": "Full menu",
     "qrDesc": "Tap to open the full 92° menu"
