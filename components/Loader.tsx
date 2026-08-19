@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
+import { Bean } from 'lucide-react';
 
 const RADIUS = 56;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
@@ -59,8 +60,9 @@ export default function Loader({ onDone }: { onDone: () => void }) {
                 strokeDashoffset={offset}
               />
             </svg>
-            <div className="absolute inset-0 flex items-center justify-center font-mono text-[26px] tracking-tight text-frost">
-              {value}°
+            <div className="absolute inset-0 flex items-end justify-center gap-0.5 pb-[42px] font-mono text-[26px] tracking-tight text-frost">
+              {value}
+              <Bean className="w-3.5 h-3.5 mb-4 text-frost" strokeWidth={2.2} aria-hidden />
             </div>
           </div>
           <div className="font-mono text-[11px] tracking-[0.28em] uppercase text-nickel">

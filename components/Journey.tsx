@@ -4,6 +4,7 @@ import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import GlassCard from './GlassCard';
 import Reveal from './Reveal';
+import BrandMark from './BrandMark';
 
 export default function Journey() {
   const { lang } = useLanguage();
@@ -124,7 +125,9 @@ export default function Journey() {
                 <span className="absolute top-4 right-4 sm:top-5 sm:right-5 font-mono text-[11px] text-nickel">
                   {point.number}
                 </span>
-                <div className="font-mono text-pewter text-[12px] sm:text-[13px] tracking-wide">92°</div>
+                <div className="font-mono text-pewter text-[12px] sm:text-[13px] tracking-wide">
+                  <BrandMark />
+                </div>
                 <h3 className="text-[18px] sm:text-[20px] mt-3 sm:mt-3.5 pr-8">{point.title}</h3>
                 <p className="text-[13px] sm:text-[13.5px] text-nickel mt-2 sm:mt-2.5 leading-relaxed">{point.desc}</p>
               </GlassCard>

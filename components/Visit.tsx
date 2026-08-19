@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { MapPin, Clock, Phone, Instagram, Send, QrCode, ExternalLink } from 'lucide-react';
+import { MapPin, Clock, Phone, Send, QrCode, ExternalLink } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { contact } from '@/data/content';
 import GlassCard from './GlassCard';
@@ -87,7 +87,11 @@ export default function Visit() {
                   aria-label="Instagram"
                   className="w-9 h-9 rounded-full border border-pewter/25 flex items-center justify-center hover:bg-pewter hover:border-pewter hover:text-midnight transition-all hover:-translate-y-0.5"
                 >
-                  <Instagram className="w-4 h-4" strokeWidth={1.6} />
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <rect x="3" y="3" width="18" height="18" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none" />
+                  </svg>
                 </a>
                 <a
                   href={contact.telegram}

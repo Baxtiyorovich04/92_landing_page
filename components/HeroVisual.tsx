@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 import { heroImages } from '@/data/content';
+import BrandMark from './BrandMark';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -48,7 +49,7 @@ export default function HeroVisual() {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-midnight/55 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3">
                 <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-frost/80">
-                  92°
+                  <BrandMark />
                 </span>
                 <span className="font-mono text-[10px] tracking-wide text-frost/55 truncate">
                   {item.alt}

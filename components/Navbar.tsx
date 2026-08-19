@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
 import { contact } from '@/data/content';
 import LanguageSwitcher from './LanguageSwitcher';
+import BrandMark from './BrandMark';
 
 const LINKS: { key: 'journey' | 'menu' | 'gallery' | 'reviews' | 'visit'; href: string }[] = [
   { key: 'journey', href: '#journey' },
@@ -58,9 +59,8 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 right-0 z-[100] py-3 sm:py-4">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-5 md:px-8">
           <nav className="glass flex items-center justify-between rounded-full py-2.5 sm:py-3 pl-4 sm:pl-6 pr-2.5 sm:pr-3">
-            <a href="#top" className="font-display text-[17px] sm:text-[19px] font-medium flex items-center gap-1.5 sm:gap-2">
-              <span className="text-pewter">92°</span>
-              <span>Coffee</span>
+            <a href="#top" className="font-display text-[17px] sm:text-[19px] font-medium flex items-center">
+              <BrandMark withWord />
             </a>
 
             <div className="hidden md:flex items-center gap-8 text-sm text-chrome">
