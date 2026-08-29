@@ -44,7 +44,7 @@ export const galleryCarouselImages = [
 export const galleryVideos = [
   { id: 'video-1', src: '/videos/video_1.mp4', label: 'Inside 92°' },
   { id: 'video-2', src: '/videos/video_2.mp4', label: '92° vibe' },
-  { id: 'video-about', src: '/videos/video_about_92.mp4', label: 'Coffee mood' }
+  { id: 'video-3', src: '/videos/video_3.mp4', label: 'Coffee mood' }
 ];
 
 export const yandexReviews = {
