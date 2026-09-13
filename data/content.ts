@@ -93,7 +93,7 @@ export const contact = {
   phone: '+998 90 123 45 67',
   instagram: 'https://www.instagram.com/92degree.c1/',
   telegram: 'https://t.me/92degrees_coffee',
-  menuUrl: 'https://92-menu.vercel.app/',
+  menuUrl: 'https://92-page.vercel.app/',
   // Buyuk Ipak Yoʻli mahalla fuqarolar yigʻini, 2, Mirzo Ulugʻbek tumani, Toshkent
   lat: 41.31188,
   lng: 69.288568,
