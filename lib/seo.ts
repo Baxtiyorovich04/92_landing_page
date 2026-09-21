@@ -1,16 +1,11 @@
 import { contact, yandexReviews } from '@/data/content';
 
+export const SITE_URL = 'https://www.92degreetashkent.uz';
+
 export function getSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '');
   if (explicit) return explicit;
-
-  const vercelProd = process.env.VERCEL_PROJECT_PRODUCTION_URL?.replace(/\/$/, '');
-  if (vercelProd) return `https://${vercelProd}`;
-
-  const vercelUrl = process.env.VERCEL_URL?.replace(/\/$/, '');
-  if (vercelUrl) return `https://${vercelUrl}`;
-
-  return 'http://localhost:3000';
+  return SITE_URL;
 }
 
 export const SITE = {

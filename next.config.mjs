@@ -13,6 +13,16 @@ const nextConfig = {
         hostname: 'images.unsplash.com'
       }
     ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: '92degreetashkent.uz' }],
+        destination: 'https://www.92degreetashkent.uz/:path*',
+        permanent: true
+      }
+    ];
   }
 };
 
