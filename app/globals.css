@@ -8,6 +8,23 @@
   html {
     scroll-behavior: smooth;
   }
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -100px;
+    z-index: 1000;
+    padding: 0.6rem 1rem;
+    border-radius: 999px;
+    background: #c5c5c7;
+    color: #38383b;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .skip-link:focus {
+    top: 1rem;
+    outline: 2px solid #e3e3e5;
+    outline-offset: 3px;
+  }
   body {
     @apply bg-midnight text-frost font-body antialiased;
     overflow-x: hidden;

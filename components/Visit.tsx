@@ -43,7 +43,7 @@ export default function Visit() {
 
           <Reveal delay={0.1}>
             <GlassCard className="rounded-[20px] sm:rounded-[24px] p-5 sm:p-7 md:p-9 h-full flex flex-col gap-5 sm:gap-6">
-              <div className="flex gap-3.5 sm:gap-4 items-start">
+              <address className="not-italic flex gap-3.5 sm:gap-4 items-start">
                 <MapPin className="w-5 h-5 text-pewter mt-0.5 flex-shrink-0" strokeWidth={1.5} />
                 <div className="min-w-0">
                   <div className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-warmgray-500">
@@ -51,7 +51,7 @@ export default function Visit() {
                   </div>
                   <div className="text-[14.5px] sm:text-[15.5px] mt-1 leading-snug">{t.visit.addressValue}</div>
                 </div>
-              </div>
+              </address>
 
               <div className="flex gap-3.5 sm:gap-4 items-start">
                 <Clock className="w-5 h-5 text-pewter mt-0.5 flex-shrink-0" strokeWidth={1.5} />

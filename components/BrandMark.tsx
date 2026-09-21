@@ -13,7 +13,7 @@ export default function BrandMark({
   wordClassName?: string;
 }) {
   return (
-    <span className={`inline-flex items-center ${className}`}>
+    <span className={`inline-flex items-center ${className}`} aria-label="92 degrees Coffee">
       <span className="relative inline-flex items-end leading-none">
         <span className="text-pewter">92</span>
         <Bean

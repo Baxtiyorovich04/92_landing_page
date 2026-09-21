@@ -58,8 +58,8 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 left-0 right-0 z-[100] py-3 sm:py-4">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-5 md:px-8">
-          <nav className="glass flex items-center justify-between rounded-full py-2.5 sm:py-3 pl-4 sm:pl-6 pr-2.5 sm:pr-3">
-            <a href="#top" className="font-display text-[17px] sm:text-[19px] font-medium flex items-center">
+          <nav aria-label="Main" className="glass flex items-center justify-between rounded-full py-2.5 sm:py-3 pl-4 sm:pl-6 pr-2.5 sm:pr-3">
+            <a href="#top" aria-label="92° Coffee — home" className="font-display text-[17px] sm:text-[19px] font-medium flex items-center">
               <BrandMark withWord />
             </a>
 

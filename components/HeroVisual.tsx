@@ -52,7 +52,7 @@ export default function HeroVisual() {
                   <BrandMark />
                 </span>
                 <span className="font-mono text-[10px] tracking-wide text-frost/55 truncate">
-                  {item.alt}
+                  {item.label}
                 </span>
               </div>
             </div>

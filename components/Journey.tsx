@@ -107,6 +107,8 @@ export default function Journey() {
                 controls
                 playsInline
                 preload="metadata"
+                title={copy.videoTitle}
+                aria-label={copy.videoTitle}
               >
                 <source src="/videos/why_92_degree.mp4" type="video/mp4" />
               </video>

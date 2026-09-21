@@ -9,42 +9,42 @@ export const menuVisuals: Record<string, { from: string; to: string; icon: 'coff
 
 // Numbered professional drink photos from /public/assets
 export const menuCarouselImages = [
-  { id: '1', src: '/assets/1.webp', alt: 'Drink 1' },
-  { id: '4', src: '/assets/4.webp', alt: 'Drink 4' },
-  { id: '10', src: '/assets/10.webp', alt: 'Drink 10' },
-  { id: '18', src: '/assets/18.webp', alt: 'Drink 18' },
-  { id: '27', src: '/assets/27.webp', alt: 'Drink 27' }
+  { id: '1', src: '/assets/1.webp', alt: 'Signature coffee drink at 92° specialty coffee house in Tashkent' },
+  { id: '4', src: '/assets/4.webp', alt: 'Iced specialty coffee served at 92° in Tashkent' },
+  { id: '10', src: '/assets/10.webp', alt: 'Layered coffee drink from the 92° menu' },
+  { id: '18', src: '/assets/18.webp', alt: 'Espresso-based drink prepared at 92° coffee house' },
+  { id: '27', src: '/assets/27.webp', alt: 'House specialty beverage at 92° Tashkent' }
 ];
 
 // Resized professional photos for hero interactive gallery
 export const heroImages = [
-  { id: '0418', src: '/assets/IMGL0418-3_resized.webp', alt: '92° detail' },
-  { id: '1001', src: '/assets/IMGL1001_resized.webp', alt: '92° drink' },
-  { id: '4786', src: '/assets/IMGL4786_resized.webp', alt: '92° atmosphere' },
-  { id: '4819', src: '/assets/IMGL4819-2_resized.webp', alt: '92° interior' },
-  { id: '4826', src: '/assets/IMGL4826-2_resized.webp', alt: '92° moment' },
-  { id: '4866', src: '/assets/IMGL4866_resized.webp', alt: '92° brew' },
-  { id: '4897', src: '/assets/IMGL4897-2_resized.webp', alt: '92° signature drink' },
-  { id: '4916', src: '/assets/IMGL4916_resized.webp', alt: '92° cup' },
-  { id: '5012', src: '/assets/IMGL5012_resized.webp', alt: '92° table moment' },
-  { id: '5021', src: '/assets/IMGL5021_resized.webp', alt: '92° space' },
-  { id: '5058', src: '/assets/IMGL5058_resized.webp', alt: '92° coffee scene' }
+  { id: '0418', src: '/assets/IMGL0418-3_resized.webp', label: 'Detail', alt: 'Close-up of a specialty coffee at 92° in Tashkent' },
+  { id: '1001', src: '/assets/IMGL1001_resized.webp', label: 'Drink', alt: 'Crafted coffee drink served at 92° coffee house' },
+  { id: '4786', src: '/assets/IMGL4786_resized.webp', label: 'Atmosphere', alt: 'Atmosphere inside 92° specialty coffee house, Tashkent' },
+  { id: '4819', src: '/assets/IMGL4819-2_resized.webp', label: 'Interior', alt: 'Interior of 92° coffee house in Mirzo Ulugbek, Tashkent' },
+  { id: '4826', src: '/assets/IMGL4826-2_resized.webp', label: 'Moment', alt: 'Guests and coffee culture at 92° Tashkent' },
+  { id: '4866', src: '/assets/IMGL4866_resized.webp', label: 'Brew', alt: 'Fresh brew prepared at 92 degrees' },
+  { id: '4897', src: '/assets/IMGL4897-2_resized.webp', label: 'Signature', alt: 'Signature 92° drink with latte art' },
+  { id: '4916', src: '/assets/IMGL4916_resized.webp', label: 'Cup', alt: 'Coffee cup at 92° specialty coffee house' },
+  { id: '5012', src: '/assets/IMGL5012_resized.webp', label: 'Table', alt: 'Table setting at 92° coffee house in Tashkent' },
+  { id: '5021', src: '/assets/IMGL5021_resized.webp', label: 'Space', alt: 'Seating and interior design of 92° Tashkent' },
+  { id: '5058', src: '/assets/IMGL5058_resized.webp', label: 'Scene', alt: 'Coffee scene at 92° specialty coffee house' }
 ];
 
 // Named atmosphere / carousel photos from /public/assets
 export const galleryCarouselImages = [
-  { id: 'inside-2', src: '/assets/inside_2.webp', alt: 'Interior' },
-  { id: 'inside-coffee', src: '/assets/inside_with_coffe.webp', alt: 'Interior with coffee' },
-  { id: 'inside-cafe', src: '/assets/inside_with_cofe.webp', alt: 'Cafe interior' },
-  { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.webp', alt: '92° space' },
-  { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.webp', alt: '92° moment' },
-  { id: 'imgl-4866', src: '/assets/IMGL4866_resized.webp', alt: '92° brew' }
+  { id: 'inside-2', src: '/assets/inside_2.webp', alt: 'Interior of 92° specialty coffee house in Tashkent' },
+  { id: 'inside-coffee', src: '/assets/inside_with_coffe.webp', alt: 'Coffee served inside 92° cafe in Tashkent' },
+  { id: 'inside-cafe', src: '/assets/inside_with_cofe.webp', alt: 'Cafe interior and bar at 92° Tashkent' },
+  { id: 'imgl-4819', src: '/assets/IMGL4819-2_resized.webp', alt: 'Seating space at 92° coffee house' },
+  { id: 'imgl-4826', src: '/assets/IMGL4826-2_resized.webp', alt: 'Moment inside 92° specialty coffee house' },
+  { id: 'imgl-4866', src: '/assets/IMGL4866_resized.webp', alt: 'Brewing coffee at 92° in Tashkent' }
 ];
 
 export const galleryVideos = [
-  { id: 'video-1', src: '/videos/video_1.mp4', label: 'Inside 92°' },
-  { id: 'video-2', src: '/videos/video_2.mp4', label: '92° vibe' },
-  { id: 'video-3', src: '/videos/video_3.mp4', label: 'Coffee mood' }
+  { id: 'video-1', src: '/videos/video_1.mp4', label: 'Inside 92° coffee house in Tashkent' },
+  { id: 'video-2', src: '/videos/video_2.mp4', label: 'Atmosphere and vibe at 92° Tashkent' },
+  { id: 'video-3', src: '/videos/video_3.mp4', label: 'Coffee being prepared at 92°' }
 ];
 
 export const yandexReviews = {

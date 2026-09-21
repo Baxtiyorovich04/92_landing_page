@@ -33,6 +33,8 @@ export default function Gallery() {
                 loop
                 playsInline
                 preload="metadata"
+                title={item.label}
+                aria-label={item.label}
               >
                 <source src={item.src} type="video/mp4" />
               </video>
@@ -59,6 +61,8 @@ export default function Gallery() {
                     loop
                     playsInline
                     preload="metadata"
+                    title={item.label}
+                    aria-label={item.label}
                   >
                     <source src={item.src} type="video/mp4" />
                   </video>

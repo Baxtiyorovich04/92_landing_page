@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       <Navbar />
-      <main className="relative z-10">
+      <main id="main-content" className="relative z-10">
         <Hero />
         <Journey />
         <MenuSection />
