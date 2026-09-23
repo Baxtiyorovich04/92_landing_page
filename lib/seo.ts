@@ -1,6 +1,6 @@
 import { contact, yandexReviews } from '@/data/content';
 
-export const SITE_URL = 'https://www.92degreetashkent.uz';
+export const SITE_URL = 'https://92degreetashkent.uz';
 
 export function getSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '');

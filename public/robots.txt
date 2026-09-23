@@ -7,5 +7,5 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Host: https://www.92degreetashkent.uz
-Sitemap: https://www.92degreetashkent.uz/sitemap.xml
+Host: https://92degreetashkent.uz
+Sitemap: https://92degreetashkent.uz/sitemap.xml
